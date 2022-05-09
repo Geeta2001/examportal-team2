@@ -9,12 +9,6 @@ const Menu=()=> {
             <Link className="list-group-item list-group-item-action" to="/" action>
                 Home
             </Link>
-            <Link className="list-group-item list-group-item-action" to="/addexam" action>
-                Add Exam
-            </Link>
-            <Link className="list-group-item list-group-item-action" to="/addquestions" action>
-                Add Question
-            </Link>
         </ListGroup>
     );
 };
